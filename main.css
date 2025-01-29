@@ -1,0 +1,277 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation bar inside the header */
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for each nav item */
+.nav-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style for the links in the nav */
+.nav-bar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+    /* Hover effect for links */
+.nav-bar li a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+    /* Styling for image links */
+.image-link {
+    margin: 20px;
+    display: inline-block;
+}
+
+img {
+    width: 150px;  /* Adjust size of images */
+    height: 80px;
+    border: 2px solid #ddd; /* Optional: adds border around images */
+    border-radius: 10px; /* Optional: rounded corners */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    align-items: center;
+}
+
+
+.container{
+    width: 70%;
+    /* margin: 20px; */
+    /* display: inline-grid; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-left: 20%; */
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-right: 20%; */
+    margin: auto;
+}
+
+.container, .tdev {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+
+
+.live{
+        /* margin: 20px; */
+    /* display: inline-grid; */
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-left: 20%; */
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-right: 20%; */
+    margin: auto;
+}
+    
+
+img:hover {
+transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* privacy page div at footer */
+.div-pry{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Footer */
+footer, .privacy {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+/* Advertisement space */
+.ad-space {
+background-color: #ddd;
+height: 300px;
+width: 70%;
+margin: 0 auto;
+text-align: center;
+line-height: 300px;
+font-size: 20px;
+margin-bottom: 20px;
+display: block;  /* Ensure it's block level to stack below the first row */
+}
+
+
+/* Job CSS */
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-bar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-bar li a:hover {
+background-color: #007BFF;
+color: white;
+}
+
+/* Container for Tables */
+.tdev {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile-Responsive Styles */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    .nav-bar li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .nav-bar li {
+        font-size: 16px;
+    }
+}
+/* Job CSS END */
+
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: center;
+        flex-direction: column; /* Stack images on smaller screens */
+    }
+    
+    .image-link {
+        width: 40%; /* Make images full-width on small screens */
+        margin-bottom: 10px;
+    }
+    
+    .ad-space {
+        width: 100%; /* Make advertisement space full-width */
+    }
+
+
+
+    }
+
+
