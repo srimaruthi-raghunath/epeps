@@ -262,7 +262,7 @@ footer {
     }
     
     .image-link {
-        width: 100%; /* Make images full-width on small screens */
+        width: 40%; /* Make images full-width on small screens */
         margin-bottom: 10px;
     }
     
