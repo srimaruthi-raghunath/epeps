@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newspaper Links and Ads</title>
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+          alert('Right-click is disabled on this page.');
+        });
+      </script>
     <style>
         /* General styles */
         body {
@@ -84,6 +90,24 @@
         h1 {
             text-align: center;
             margin-top: 20px;
+        }
+
+        /* footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
 
         /* Responsive Design */
@@ -202,6 +226,11 @@
             <img src="images/velugu.png" alt="Image 11">
         </a>
     </div>
+
+    <footer>
+        <p>&copy; 2025 ePep. All rights reserved.</p>
+        <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-conditions">Terms and Conditions</a></p>
+    </footer>
 
 </body>
 </html>
