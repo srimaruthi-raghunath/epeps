@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newspaper Links and Ads</title>
-    <script>
-        document.addEventListener('contextmenu', function(e) {
-          e.preventDefault();
-          alert('Right-click is disabled on this page.');
-        });
-      </script>
-    <!-- <style>
+
+
         /* General styles */
         body {
             font-family: Arial, sans-serif;
@@ -158,79 +147,3 @@
                 font-size: 16px;
             }
         }
-
-    </style> -->
-</head>
-<body>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#">ePep</a>
-        <!-- <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Services</a> -->
-    </nav>
-
-
-    <!-- 5 Clickable Images as Links -->
-    <div class="container">
-        <a href="https://epaper.indiatimes.com" class="image-link">
-            <img src="images/TOI.jpg" alt="Image 1">
-        </a>
-
-        <a href="https://epaper.thehindu.com/reader" class="image-link">
-            <img src="images/The-Hindu-Logo.jpg" alt="Image 2">
-        </a>
-
-        <a href="http://onlineepaper.asianage.com" class="image-link">
-            <img src="images/asian-age.png" alt="Image 3">
-        </a>
-
-        <a href="http://epaper.deccanchronicle.com/states.aspx" class="image-link">
-            <img src="images/Deccan-Chronicle-logo.jpg" alt="Image 4">
-        </a>
-    </div>
-
-    <!-- Advertisement Space -->
-    <div class="ad-space">
-        Advertisement
-    </div>
-
-    <!-- Additional Clickable Images -->
-    <div class="container">
-        <a href="http://epaper.andhrabhoomi.net" class="image-link">
-            <img src="images/andhra-bhoomi-newspaper-ad-rates.png" alt="Image 5">
-        </a>
-
-        <a href="https://epaper.andhrajyothy.com" class="image-link">
-            <img src="images/Andhra_Jyothi_newspaper_logo.png" alt="Image 6">
-        </a>
-
-        <a href="https://epaper.prabhanews.com" class="image-link">
-            <img src="images/Andhra_Prabha_Logo.png" alt="Image 7">
-        </a>
-
-        <a href="https://epaper.eenadu.net/" class="image-link">
-            <img src="images/eenadu.png" alt="Image 8">
-        </a>
-
-        <a href="https://epaper.sakshi.com" class="image-link">
-            <img src="images/Sakshi_newspaper_logo.png" alt="Image 9">
-        </a>
-
-        <a href="https://epaper.vaartha.com" class="image-link">
-            <img src="images/vaartha.png" alt="Image 10">
-        </a>
-
-        <a href="https://epaper.v6velugu.com" class="image-link">
-            <img src="images/velugu.png" alt="Image 11">
-        </a>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 ePep.in All rights reserved.</p>
-        <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-conditions">Terms and Conditions</a></p>
-    </footer>
-
-</body>
-</html>
