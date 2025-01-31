@@ -60,15 +60,6 @@
                 margin: 0 10px;
             }
 
-            .container {
-                width: 90%; /* Adjust container width on small devices */
-            }
-
-            .container .image-link {
-                width: 150px; /* Slightly smaller images on small screens */
-                height: 120px;
-            }
-        }
 
         @media (max-width: 480px) {
             nav {
@@ -79,15 +70,6 @@
                 display: block;
                 margin: 5px 0; /* Stack links on very small screens */
                 font-size: 14px;
-            }
-
-            .container {
-                width: 100%; /* Full width container on very small screens */
-            }
-
-            .container .image-link {
-                width: 120px; /* Even smaller images for very small screens */
-                height: 100px;
             }
 
             .ad-space {
