@@ -29,6 +29,24 @@
             margin-top: 20px;
         }
 
+        .pry{
+                padding: 2rem;
+
+            h1 {
+                font-size: 2rem;
+                color: #333;
+            }
+            h2 {
+                color: #555;
+            }
+            p {
+                margin-bottom: 1.2rem;
+                color: #444;
+            }
+        }
+
+
+
         /* footer */
         footer {
             background-color: #333;
