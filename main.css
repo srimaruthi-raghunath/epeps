@@ -59,7 +59,7 @@
                 font-size: 16px; /* Smaller font size for small screens */
                 margin: 0 10px;
             }
-
+        }
 
         @media (max-width: 480px) {
             nav {
